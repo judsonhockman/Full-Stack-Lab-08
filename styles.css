@@ -1,0 +1,69 @@
+#canvas {
+    width: 600px;
+    height: 600px;
+    background-color: lightcoral;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.shape {
+    cursor: pointer;
+    position: absolute;
+}
+#detail-pane {
+    display: inline-block;
+    width: 300px;
+    margin: 0 30px;
+    vertical-align: top;
+}
+
+
+.square {
+     background-color: purple;
+      }
+
+.rectangle {
+     background-color: darkgrey;
+}
+.triangle {
+  border-width: 0;
+  border-color: transparent;
+  border-bottom-color: blueviolet;
+  border-style: solid;
+      } 
+
+.circle {
+  background-color: powderblue;
+  border-radius: 50%;
+   } 
+
+   
+
+
+
+
+
+
+
+
+
+.rectangle {
+    background-color: green;
+}
+
+.square {
+    background-color: red;
+}
+
+.circle {
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.triangle {
+    border-width: 0;
+    border-color: transparent;
+    border-bottom-color: yellow;
+    border-style: solid;
+}
