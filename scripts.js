@@ -93,8 +93,8 @@ function Triangle(height) {
  this.draw();
  this.div.style.width = '0';
  this.div.style.height = '0';
- this.style.borderRightWidth = height + 'px';
- this.style.borderBottomWidth = height + 'px';
+ this.div.style.borderRightWidth = height + 'px';
+ this.div.style.borderBottomWidth = height + 'px';
 }
 Triangle.prototype = Object.create(Shape.prototype);
 Triangle.prototype .constructor = Triangle;
